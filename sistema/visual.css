@@ -1,0 +1,235 @@
+
+.carrossel{
+  padding:0;
+  margin:0;
+  width: 100%;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.slide{
+  width: 1024px;
+  height:526px;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.4s;
+}
+.slides{
+  width:5120px;
+  display: flex;
+}
+.image img{
+  width: 1024px;
+  height: 576px;
+}
+#atual{
+  margin-left:0;
+  transition: all 2s;
+}
+.btn{
+  position: absolute;
+  color: #ffffff;
+  padding:10px;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-size: 1.7em;
+  margin-top: -5px;
+}
+.btn:hover{
+  transform: scale(1.5);
+
+}
+#voltar{
+  top: 115%;
+  left: 10%;
+}
+#next{
+  margin-left: -1024px;
+  top:115%;
+  right:10%;
+}
+.balls{
+  position: absolute;
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+  margin-top: -45px;
+}
+.balls div{
+  transition: all 0.5s;
+  border: 3 px solid #ffffff;
+  padding: 6px;
+  border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.balls div:hover{
+  background: #ffffff;
+}
+.imgAtual{
+  transition: all 0.5s;
+  background: #ffffff;
+}
+.logo{
+  margin-top: 2px;
+}
+
+.menusuperior {
+  width: 100%;
+  background-color: #ffffff;
+  padding:16px;
+  text-align: center;
+}
+.menusuperior a{
+  display: inline-block;
+  margin: 0 10px;
+  color: #0568a6;
+  text-decoration: none;
+}
+.menusuperior a:hover{
+  text-decoration: underline;
+}
+footer {
+  background-color: white;
+  text-align: center;
+}
+footer p{
+  color: #0568a6;
+}
+header{
+  color: white;
+  text-align: center;
+}
+.inicio-noticias{
+  color: white;
+  text-align: center;
+}
+html {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  background: #0568a6;
+}
+
+.noticias-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.coluna {
+  flex: 1;
+  margin: 0 10px;
+}
+
+
+.noticia {
+  display: flex;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.noticia img {
+  flex: 0 0 auto;
+  width: 400px;
+  height: auto;
+  margin-right: 20px; 
+  border-radius: 8px;
+}
+
+.noticia-content {
+  flex: 1;
+}
+
+.noticia h2,
+.noticia p {
+  margin: 0px;
+}
+.inicio-carrossel p {
+  color: white;
+  text-align: center;
+}
+.alterar-usuario button {
+  font-family: 'Russo One', sans-serif;
+  display: block; 
+  margin: 0 auto;
+  padding: 16px 42px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+  line-height: 1.25;
+  background: #07418c;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: background-color .6s ease;
+  overflow: hidden;
+}
+.noticia h2 {
+  font-family: 'Russo One', sans-serif;
+  color: #07418c;
+  font-size: 40px; 
+  margin-bottom: 5px; /
+}
+.propaganda img{
+  display: block; 
+  margin: 0 auto;
+}
+.propaganda button{
+  font-family: 'Russo One', sans-serif;
+  display: block; 
+  margin: 0 auto;
+  padding: 16px 42px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+  line-height: 1.25;
+  background: #07418c;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: background-color .6s ease;
+  overflow: hidden;
+}
+dialog {
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #07418c;
+}
+.link a{
+  display: block; 
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+dialog p {
+  margin-bottom: 10px;
+}
+
+.noticia p {
+  font-size: 20px; 
+  color: #333; 
+  line-height: 20px;
+}
+.link a:hover{
+  text-decoration: underline;
+}
+
+
